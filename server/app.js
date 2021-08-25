@@ -10,10 +10,10 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.json({ message: 'B. Academy Cars API' });
+  res.json({ message: 'Enext potions API' });
 });
 
-app.use('/cars', routes);
+app.use('/potions', routes);
 
 app.listen(port, () => {
   console.log('Listening on port http://localhost:%d', port);
