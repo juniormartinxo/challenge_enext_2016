@@ -1,12 +1,74 @@
-* {
+body {
   font-family: 'Kaisei Decol', serif;
   /*font-family: 'Oswald', sans-serif;*/
 }
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.logo {
+  font-family: 'Oswald', sans-serif !important;
+  color: #d73d22;
+  font-size: 1.6rem;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  line-height: 18px;
+}
+
+.cart-resume {
+  font-family: 'Oswald', sans-serif !important;
+}
+
+.logo span {
+  color: #523468;
+  font-family: 'Kaisei Decol', serif !important;
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+.logospan {
+  background: #523468 !important;
+  height: 1px;
+  margin-top: 20px;
+}
+
+.logospan span {
+  background: #fff;
+  padding: 3px;
+  position: relative;
+  top: -15px;
+  color: #523468 !important;
+}
+
+.input-group-text {
+  border-right: 0;
+  background-color: #fff;
+  font-family: 'Kaisei Decol', serif !important;
+}
+
+.input-group-text .fa {
+  color: #ca4f3a;
+}
+
+.input-search {
+  border-left: 0;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+.text-strong {
+  font-weight: 600;
+}
+
+.color-purple {
+  color: #523468;
+}
+
+.color-orange {
+  color: #d73d22;
+}
+
+.color-gray {
+  color: #ccc;
+}
+
+.bg-purple {
+  background-color: #523468;
 }
